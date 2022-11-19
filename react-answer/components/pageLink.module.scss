@@ -1,0 +1,32 @@
+.links {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &__item {
+        list-style: none;
+        font-weight: 700;
+
+        &:not(.current) > a {
+            display: block;
+            padding: 0.5em 0.8em;
+            background-image: linear-gradient(#fff 50%, #f89174 50%);
+            background-position: 0 0;
+            background-size: auto 200%;
+
+            &:hover {
+                color:#fff;
+                transition:.3s;
+                background-position: 0 100%;
+            }
+        }
+
+        &.current {
+            color: #a9ceec;
+        }
+    }
+}
+
+
