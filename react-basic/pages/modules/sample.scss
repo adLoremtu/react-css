@@ -1,0 +1,27 @@
+.base {
+  padding: 10px;
+  font-size: 30px;
+  color: gray;
+}
+
+.problem2 {
+  font-size: 20px;
+  color: red;
+}
+
+.problem3_1 {
+  font-size: 20px;
+  color: blue;
+}
+
+.problem3_2 {
+  background-color: green;
+}
+
+.problem4 {
+  // 問題4: 同じファイル内の.baseを継承し、color: purpleに変更してください
+}
+
+.problem5 {
+  // 問題5: 同階層のanother.module.scssから.baseOtherを継承し、color: blackに変更してください
+}
