@@ -1,21 +1,21 @@
 
 import Head from 'next/head'
-import PageLink from '../../components/pageLink';
+import PageLink from '../../components/pageLink'
 
 /*
-  問題1: Styled Componentを用いて下記要素を定義してみてください。
+  問題1: Styled Componentsを用いて下記要素を定義してみてください。
 
   要素： p
   スタイル: color: red, font-size: 18px
   表示するテキスト: 問題1
-  ※最初にstyled-componentを読み込む必要があります。
+  ※最初にstyled-componentsを読み込む必要があります。
 */
 
 /*
   問題2: propsを利用して背景色を動的に変更するStyled Componentsを作成してみてください。
 
   要素: button
-  Props名： bgColor
+  Props名： bgColor(string)
   スタイル:
     display: block,
     width: 200px,
@@ -33,13 +33,13 @@ import PageLink from '../../components/pageLink';
 */
 
 /*
-  問題4: 問題2で作成したStyled Componentsをasを用いてspanタグに変換してみてください。
+  問題4: 問題3で作成したStyled Componentsをasを用いてspanタグに変換してみてください。
 
   要素： span
 */
 
 /*
-  問題5: attrを用いてinputのtypeを動的に変更するStyled Componentsを作成してみてください
+  問題5: attrsを用いてinputのtypeを動的に変更するStyled Componentsを作成してみてください
 
   要素： input
   属性指定: type(text, number, date) - 3つ作ります

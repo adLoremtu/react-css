@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import PageLink from '../../components/pageLink';
+import PageLink from '../../components/pageLink'
 
 // 問題1: CSS modulesになるようファイルを編集してください
 import './sample.scss'
